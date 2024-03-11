@@ -10,6 +10,18 @@ img {
     max-width: 100%;
 }
 
+figure img {
+    width: 2.8rem;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+hr {
+    border: 1px solid #f2f2f2;
+    width: 100%;
+}
+
 /* UTILITY */
 .flex {
     display: flex;
@@ -34,19 +46,22 @@ img {
 /* debug */
 body {
     display: flex;
-    align-items: center;
     justify-content: center;
     margin-top: 20px;
+    /* debug */
+    padding: 0;
+    height: 100vh; 
+    background: linear-gradient(to bottom, #239689 30%, #dcdad4 30%, #dcdad4 100%);
 }
 /* /debug */
 
-.container {
+.container-chat {
     width: 90vw;
     justify-content: space-around;
     align-items: center;
-    /* debug */
     height: 90vh;
-    border: 2px dashed black;
+    /* debug */
+    /* border: 2px dashed black; */
 }
 
 .menu-col  {
@@ -66,8 +81,9 @@ body {
 /* User Section */
 .user {
     height: 10%;
+    align-items: center;
     /* debug */
-    background-color: red;
+    background-color: #eaeaea;
 }
 /* /User Section */
 
@@ -90,8 +106,10 @@ body {
 /* Contacts Section */
 .contacts {
     height: 70%;
+    flex-direction: column;
+    justify-content: space-between;
     /* debug */
-    background-color: aqua;
+    background-color: white;
 }
 /* /Contacts Section */
 /* /COLUMN SX */

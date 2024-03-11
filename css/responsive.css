@@ -1,4 +1,45 @@
 /* Fare media Query per
-TABLET-->
-MOBILE-->
- */
+TABLET-->768px
+MOBILE-->480px
+*/
+
+/* TABLET */
+@media screen and (max-width: 768px){
+
+    .menu-col {
+        width: 10%;
+    }
+
+    .chat-col {
+        width: 90%;
+    }
+
+    .alert,
+    .search {
+        display: none;
+    }
+
+    .user {
+        justify-content: center;
+    }
+
+    .contacts {
+        height: 90%;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    .menu-col {
+        display: none;
+    }
+
+    .chat-col {
+        width: 100%;
+    }
+
+
+}
