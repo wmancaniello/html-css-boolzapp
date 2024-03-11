@@ -50,7 +50,7 @@ body {
     margin-top: 20px;
     /* debug */
     padding: 0;
-    height: 100vh; 
+    height: 90vh; 
     background: linear-gradient(to bottom, #239689 30%, #dcdad4 30%, #dcdad4 100%);
 }
 /* /debug */
@@ -108,6 +108,9 @@ body {
     height: 70%;
     flex-direction: column;
     justify-content: space-between;
+    padding-top: .5rem;
+    overflow-y: scroll;
+    max-height: 90%;
     /* debug */
     background-color: white;
 }

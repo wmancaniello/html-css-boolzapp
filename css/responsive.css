@@ -24,7 +24,8 @@ MOBILE-->480px
     }
 
     .contacts {
-        height: 90%;
+        height: 100%;
+        padding-top: 3rem;
         align-items: center;
         justify-content: center;
         gap: 0.5rem;
