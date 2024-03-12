@@ -43,6 +43,12 @@ MOBILE-->480px
     .user-icon {
         display: none;
     }
+
+    .message-sent {
+        width: 80%; 
+        left: 10%;
+        padding: 20px;
+    }
 }
 
 
@@ -57,21 +63,18 @@ MOBILE-->480px
         width: 100%;
     }
 
-    .hidden {
-        display: none;
-    }
-
-    .search-bar {
-        display: none;
-    }
-
-    .user-icon {
-        display: none;
-    }
-
+    .hidden,
+    .search-bar,
+    .user-icon,
     .icon-chat {
         display: none;
     }
 
+
+    .message-sent {
+        width: 100%; 
+        left: 0; 
+        padding: 10px; 
+    }
 
 }

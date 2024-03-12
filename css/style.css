@@ -233,8 +233,31 @@ body {
 /* Chat */
 .chat {
     height: 80%;
+    position: relative;
     /* debug */
     background-image: url(../img/mine.jpg);
+}
+
+.message-sent {
+    width: 50%;
+    background-color: #D5F9BA;
+
+    position: absolute;
+    padding: 20px;
+    border-radius: 20px;
+    top: 5%;
+    left: 40%;
+    position: relative;
+}
+
+.message-sent .chev {
+    position: absolute;
+    top: 18px;
+    right: 10px;
+}
+
+.message-received {
+
 }
 /* /Chat */
 
