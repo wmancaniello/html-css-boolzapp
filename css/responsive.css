@@ -25,13 +25,27 @@ MOBILE-->480px
 
     .contacts {
         height: 100%;
-        padding-top: 3rem;
+        padding-top: 43rem;
         align-items: center;
         justify-content: center;
         gap: 0.5rem;
     }
+
+    .hidden {
+        display: none;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    .user-icon {
+        display: none;
+    }
 }
 
+
+/* MOBILE */
 @media screen and (max-width: 480px) {
     
     .menu-col {
@@ -40,6 +54,18 @@ MOBILE-->480px
 
     .chat-col {
         width: 100%;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    .user-icon {
+        display: none;
     }
 
 
