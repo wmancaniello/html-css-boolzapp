@@ -15,6 +15,7 @@ figure img {
     border-radius: 50%;
     object-fit: cover;
     cursor: pointer;
+    min-width: 64px;
 }
 
 .user-icon i {
@@ -27,6 +28,11 @@ figure img {
     color: #8EDAFC;
 }
 
+.icon-chat i {
+    font-size: 1.7rem;
+    color: #B1B1B1;
+}
+
 hr {
     border: 1px solid #f2f2f2;
     width: 100%;
@@ -37,9 +43,18 @@ hr {
     display: flex;
 }
 
+.f-column {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
 .align-center {
     align-items: center;
 }
+
 
 .pdg-left-5 {
     padding-left: 5px;
@@ -132,6 +147,7 @@ body {
 
 .icon-alert {
     width: 50px;
+    min-width: 50px;
     height: 50px;
     border-radius: 50%;
     background-color: #f0f0f0;
@@ -197,8 +213,20 @@ body {
 /* Chat User */
 .chat-user {
     height: 10%;
+    justify-content: space-between;
+    align-items: center;
     /* debug */
-    background-color: lightcoral;
+    background-color: #EAEAEA;
+}
+
+.icon-user {
+    padding-left: 10px;
+    gap: 20px;
+}
+
+.icon-chat {
+    gap: 20px;
+    padding-right: 25px;
 }
 /* /Chat User */
 
@@ -206,7 +234,7 @@ body {
 .chat {
     height: 80%;
     /* debug */
-    background-color: lightyellow;
+    background-image: url(../img/mine.jpg);
 }
 /* /Chat */
 
